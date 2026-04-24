@@ -1,3 +1,4 @@
+/* Retaining your original pillar layout */
 .pillar-row {
     display: flex;
     justify-content: space-between;
@@ -7,19 +8,21 @@
 
 .pillar-box {
     flex: 1;
-    s border: 1px solid #333;
+    border: 1px solid #333;
     padding: 15px;
     border-radius: 8px;
     background-color: #f9f9f9;
 }
 
+/* Retaining your original project card layout */
 .project-card {
     background-color: #ffffff;
     border: 1px solid #0e0e0e;
     border-radius: 12px;
     padding: 25px;
     margin: 25px 0;
-    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    /* Fixed to rgba */
 }
 
 .project-card h3 {
@@ -27,26 +30,37 @@
     color: #2c3e50;
     border-bottom: 1px solid #eee;
     padding-bottom: 10px;
-
 }
 
 .project-card p {
     color: #555;
     font-size: 0.9rem;
-
 }
 
 .image-row {
     display: flex;
     gap: 10px;
     margin: 15px 0;
+    align-items: center;
 }
 
 .image-row img {
-    flex: 1;
     width: 48%;
     border-radius: 8px;
     border: 1px solid #ddd;
     object-fit: cover;
     height: 300px;
+}
+
+/* Keeps the layout responsive for mobile phones */
+@media (max-width: 600px) {
+
+    .pillar-row,
+    .image-row {
+        flex-direction: column;
+    }
+
+    .image-row img {
+        width: 100%;
+    }
 }
