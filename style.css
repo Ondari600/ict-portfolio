@@ -1,4 +1,4 @@
-/* Retaining your original pillar layout */
+/* Layout remains the same as your preferred design */
 .pillar-row {
     display: flex;
     justify-content: space-between;
@@ -14,7 +14,6 @@
     background-color: #f9f9f9;
 }
 
-/* Retaining your original project card layout */
 .project-card {
     background-color: #ffffff;
     border: 1px solid #0e0e0e;
@@ -22,7 +21,7 @@
     padding: 25px;
     margin: 25px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-    /* Fixed to rgba */
+    /* Fixed syntax */
 }
 
 .project-card h3 {
@@ -52,7 +51,7 @@
     height: 300px;
 }
 
-/* Keeps the layout responsive for mobile phones */
+/* Responsive adjustments for mobile */
 @media (max-width: 600px) {
 
     .pillar-row,
