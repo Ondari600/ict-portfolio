@@ -1,0 +1,52 @@
+.pillar-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.pillar-box {
+    flex: 1;
+    s border: 1px solid #333;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.project-card {
+    background-color: #ffffff;
+    border: 1px solid #0e0e0e;
+    border-radius: 12px;
+    padding: 25px;
+    margin: 25px 0;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.05);
+}
+
+.project-card h3 {
+    margin-top: 0;
+    color: #2c3e50;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 10px;
+
+}
+
+.project-card p {
+    color: #555;
+    font-size: 0.9rem;
+
+}
+
+.image-row {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.image-row img {
+    flex: 1;
+    width: 48%;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    object-fit: cover;
+    height: 300px;
+}
