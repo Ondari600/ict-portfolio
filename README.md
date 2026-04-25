@@ -20,4 +20,4 @@ This repository contains a prototype for a comprehensive school website. The goa
 - **Current Status:** This project is an active work-in-progress as I refine my skills in CSS layout and Python backend logic.
 
 ## Contact
-Connect with me on [) or view my full ICT Portfolio [here](https://github.io).
+Connect with me on [linkedin.com/in/anthony-ondari-318185293) or view my full ICT Portfolio [here]([https://github](https://github.com/Ondari600/ict-portfolio.git)).
